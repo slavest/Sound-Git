@@ -1,0 +1,13 @@
+{
+    "extends": "@sound-git/typescript-config/base.json",
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "outDir": "dist"
+    },
+    "include": [
+        "**/*.ts",
+    ],
+    "exclude": [
+        "dist"
+    ]
+}
